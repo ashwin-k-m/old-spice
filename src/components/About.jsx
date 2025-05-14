@@ -41,7 +41,7 @@ const About = () => {
         <div className="about-subtext">
           <p>Where the tradition and modern cuisine meets face to face!</p>
           <p className="text-gray-500">
-            OldSpice is a restaurant that celebrates the rich heritage of South Indian cuisine
+            OldSpice is a restaurant that celebrates the rich heritage of South Indian cuisine.
           </p>
         </div>
       </div>
