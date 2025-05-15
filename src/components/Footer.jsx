@@ -8,8 +8,8 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-gradient-to-r from-[#ff4bed] to-[#011fff] py-4 text-white font-robert-regular">
-      <div className="container mx-auto flex flex-col items-center justify-center md:flex-row">
+    <footer className="w-screen bg-gradient-to-b from-[#d350ff] to-[#a601ff] text-white font-robert-regular">
+      <div className="container mx-auto flex flex-col items-center py-4 justify-center md:flex-row">
         <div className="flex justify-center gap-4  md:justify-start">
           {socialLinks.map((link, index) => (
             <a
@@ -32,13 +32,8 @@ const Footer = () => {
         </p>
       </div>
       <div className="mt-4 flex justify-center gap-8">
-        <p className="text-center text-sm font-light md:text-left">
+        <p className="text-center text-sm font-light md:text-left mb-6">
           ©Ashwin 2025. All rights reserved
-        </p>
-        <p
-          className="text-sm font-light text-white"
-        >
-          Made with ❤️ by Ashwin
         </p>
       </div>
     </footer>
